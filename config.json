@@ -1,0 +1,9 @@
+{
+    "db": {
+        "url": "localhost:27017/indulgin",
+        "log": "logs/db.log"
+    },
+    "auth": {
+        "keyExpireSeconds": 3600
+    }
+}

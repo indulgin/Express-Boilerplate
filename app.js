@@ -1,6 +1,9 @@
 //Setup Server
 var app = require('./lib/server');
 
+//Setup Middlewares
+require('./lib/middlewares');
+
 //Setup Routes
 require('./lib/routes');
 
