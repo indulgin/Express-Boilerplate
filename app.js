@@ -1,3 +1,4 @@
+ROOT_DIR = __dirname;
 //Setup Server
 var app = require('./lib/server');
 
