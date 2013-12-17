@@ -1,6 +1,6 @@
 {
     "db": {
-        "url": "localhost:27017/indulgin",
+        "url": "mongodb://localhost/indulgin",
         "log": "logs/db.log"
     },
     "auth": {
