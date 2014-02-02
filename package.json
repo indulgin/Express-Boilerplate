@@ -13,6 +13,7 @@
     "passport": "~0.1.17",
     "passport-google": "~0.3.0",
     "passport-facebook": "~1.0.2",
-    "connect-mongo": "~0.4.0"
+    "connect-mongo": "~0.4.0",
+    "async": "~0.2.9"
   }
 }
