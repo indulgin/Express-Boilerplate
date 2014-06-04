@@ -1,7 +1,11 @@
 {
-    "name": "Indulgin",
-    "version": "0.0.1",
-    "dependencies": {
-        "bootstrap": "latest"
-    }
+  "name": "Indulgin",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "angular-bootstrap": "~0.11.0",
+    "font-awesome": "~4.1.0",
+    "underscore": "~1.6.0",
+    "angular": "~1.2.16"
+  }
 }
