@@ -6,6 +6,9 @@
     "angular-bootstrap": "~0.11.0",
     "font-awesome": "~4.1.0",
     "angular": "~1.2.16",
-    "async": "~0.9.0"
+    "async": "~0.9.0",
+    "angular-cookies": "~1.2.16",
+    "angular-resource": "~1.2.16",
+    "angular-route": "~1.2.16"
   }
 }
