@@ -3,4 +3,7 @@
  */
 function NavBarCtrl($scope) {
     $scope.isCollapsed = true;
+    $scope.toggleClick = function() {
+        this.isCollapsed = !this.isCollapsed;
+    }
 }
