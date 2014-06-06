@@ -1,2 +1,1 @@
-organize ng-code better
-provide watcher & compile func. for ng files written in jade(save keystrokes, looks cleaner)
+currently all script load exists in foot.jade. Make it just single script-per-module.

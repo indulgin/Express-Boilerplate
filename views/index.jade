@@ -2,11 +2,11 @@ extends com/layout
 
 block content
     script(type="text/javascript").
-        window.user = !{req.user}
+        window.user = !{JSON.stringify(user)}
     h1= title
     p Welcome to #{title}
     if req.user
-        a(href="/logout") Logout #{req.user.firstName} #{req.user.lastName}
+        a(href="/logout") Logout #{user.firstName} #{user.lastName}
     else
         p Login with
             a(href="/auth/google") Google
