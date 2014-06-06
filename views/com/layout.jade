@@ -1,7 +1,13 @@
 doctype html
 html(lang="en")
-    include head
+    //stylesheet, meta content.
+    include includes/head
     body
-        include header
+        //header for the page.
+        include partials/header
+        //content
         block content
-        include footer
+        //footer content/navigation
+        include partials/footer
+        //scripts
+        include includes/foot
