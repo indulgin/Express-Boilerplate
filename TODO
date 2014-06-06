@@ -1,0 +1,2 @@
+organize ng-code better
+provide watcher & compile func. for ng files written in jade(save keystrokes, looks cleaner)
