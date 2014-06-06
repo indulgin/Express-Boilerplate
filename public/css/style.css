@@ -1,4 +1,10 @@
 body {
-  background: #b4c6ab;
+  background: #f4f5c8;
   padding-top: 70px;
+}
+.navbar-inverse.custom-navbar {
+  background-color: #52455a;
+  border-color: #87aa9b;
+  border-bottom-width: 1px;
+  color: #f4f5c8;
 }
