@@ -3,4 +3,5 @@
  */
 window.app = angular.module('appName', ['ngCookies', 'ngResource', 'ngRoute', 'ui.bootstrap', 'appName.global']);
 
-//add other dependencies
+//keep module declarations at one place here.
+angular.module('appName.global', []);
