@@ -1,1 +1,5 @@
 currently all script load exists in foot.jade. Make it just single script-per-module.
+
+
+//just few prod todos(not complete)
+disable auto-index mongoose schema
