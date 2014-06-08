@@ -6,6 +6,9 @@
 //Setting up route
 window.app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
-        .when('/', { templateUrl: 'views/index.html' })
+        .when('/', { templateUrl: 'view/index.html', controller: 'indexPageCtrl'})
         .otherwise({redirectTo: '/'});
-}]);
+}])
+.config(function(RestangularProvider) {
+    RestangularProvider.setBaseUrl('/api');
+});
