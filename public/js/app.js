@@ -7,3 +7,10 @@ window.app = angular.module('appName', ['ngCookies', 'ngResource', 'ngRoute', 'u
 angular.module('appName.global', ['ui.bootstrap']);
 angular.module('appName.pages', ['ui.bootstrap', 'appName.global']);
 angular.module('appName.todo', ['ui.bootstrap', 'appName.global', 'restangular']);
+
+
+
+//adding some common func here.
+function safeApply(scope, fn) {
+    (scope.$$phase || scope.$root.$$phase) ? fn() : scope.$apply(fn);
+}
