@@ -4,9 +4,9 @@
 var module = angular.module('appName.todo');
 
 module.service('Todo', function(Restangular, User) {
-    //var User = Restangular.one('users', User._id);
-    //var Todo = User.one('todo');
-
+    var UserAcc = Restangular.one('user', User.user()._id);
+    var Todo = UserAcc.one('todo');
+    console.log(User.user());
     //var Todo = Restangular.one('todo');
 
     this.getTodo = function() {
