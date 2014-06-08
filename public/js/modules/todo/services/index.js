@@ -14,7 +14,7 @@ module.service('Todo', function(Restangular, User) {
             console.log(todos);
         }, function(res) {
             //error
-            console.log("error" + res);
+            console.log(res);
         });
     }
 });
