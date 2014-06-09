@@ -11,4 +11,10 @@ window.app.config(['$routeProvider', function($routeProvider) {
 }])
 .config(function(RestangularProvider) {
     RestangularProvider.setBaseUrl('/api');
-});
+})
+.config(['$translateProvider', function($translateProvider) {
+    $translateProvider.translations('en', {
+        'TITLE': 'Hello'
+    });
+    $translateProvider.preferredLanguage('en');
+}]);
