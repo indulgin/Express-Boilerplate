@@ -13,7 +13,6 @@
     "bootstrap-social": "~4.5.0",
     "restangular": "~1.4.0",
     "lodash": "~2.4.1",
-    "angular-translate": "~2.2.0",
-    "requirejs": "~2.1.14"
+    "angular-translate": "~2.2.0"
   }
 }
